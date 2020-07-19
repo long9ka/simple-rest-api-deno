@@ -4,9 +4,13 @@
     "start": {
       "cmd": "deno run app.ts",
       "allow": [
-        "net"
+        "net",
+        "read",
+        "write",
+        "plugin",
+        "env"
       ],
-      "desc": "run my app.ts file"
+      "unstable": true
     }
   }
 }
